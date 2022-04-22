@@ -5,30 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./TicTacToe.css">
+    <script src="./TicTacToe.js"></script>
     <title>Document</title>
 </head>
 <body>
 
     <header>
-        
+
+        <h1>Tic Tac Toe Game</h1>
+        <!--may need to add classes to these buttons and also meddle with js functionality (take out the function calls)-->
         <nav>
 
             <ul>
-                <li><button onclick="displayMove()">-</button></li>
-                <li><button onclick="displayMove()">-</button></li>
-                <li><button onclick="displayMove()">-</button></li>
+                <li><button onmouseover="changePiece()" onclick="enterPiece()" id="piece1"><img src="./assets/opic.png" alt="picture of an 'O'" style="width:100px"></button></li>
+                <li><button onmouseover="observeBoard()" onclick="enterBoard()" id="piece2"><img src="./assets/blank.png" alt="picture of blank space" style="width:100px"></button></li>
+                <li><button onmouseover="changePiece()" onclick="enterPiece()" id="piece3"><img src="./assets/opic.png" alt="picture of an 'O'" style="width:100px"></button></li>
             </ul>
 
             <ul>
-                <li><button onclick="displayMove()">-</button></li>
-                <li><button onclick="displayMove()">-</button></li>
-                <li><button onclick="displayMove()">-</button></li>
+                <li><button onmouseover="changePiece()" onclick="enterPiece()" id="piece4"><img src="./assets/opic.png" alt="picture of an 'O'" style="width:100px"></button></li>
+                <li><button onmouseover="changePiece()" onclick="enterPiece()" id="piece5"><img src="./assets/opic.png" alt="picture of an 'O'" style="width:100px"></button></li>
+                <li><button onmouseover="changePiece()" onclick="enterPiece()" id="piece6"><img src="./assets/opic.png" alt="picture of an 'O'" style="width:100px"></button></li>
             </ul>
 
             <ul>
-                <li><button onclick="displayMove()">-</button></li>
-                <li><button onclick="displayMove()">-</button></li>
-                <li><button onclick="displayMove()">-</button></li>
+                <li><button onmouseover="changePiece()" onclick="enterPiece()" id="piece7"><img src="./assets/opic.png" alt="picture of an 'O'" style="width:100px"></button></li>
+                <li><button onmouseover="changePiece()" onclick="enterPiece()" id="piece8"><img src="./assets/opic.png" alt="picture of an 'O'" style="width:100px"></button></li>
+                <li><button onmouseover="changePiece()" onclick="enterPiece()" id="piece9"><img src="./assets/opic.png" alt="picture of an 'O'" style="width:100px"></button></li>
             </ul>
 
         </nav>
